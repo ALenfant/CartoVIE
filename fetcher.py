@@ -36,7 +36,7 @@ def fetch_and_process_offer(offer_id):
     if not offer:
         return
     if not offer.get('location'):
-        location = geocode_city_country(offer['city'], offer['country'])
+        location = geocode_city_country(offer['city'].lower(), offer['country'].lower())  # Lower for better cache
         offer['location'] = location or None
     Offer.upsert(session, offer)
 
