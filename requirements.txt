@@ -1,0 +1,14 @@
+requests >= 2.2.0
+beautifulsoup4 >= 4.3.2
+dateparser == 0.3.0
+psycopg2
+sqlalchemy == 1.1.0b3 # Necessary for PostgreSQL UPSERT https://github.com/zzzeek/sqlalchemy/commit/4e9ab7a72f0ad506cf519069fd67127f63e5f2aa
+geoalchemy2
+shapely
+geocoder
+joblib
+flask
+flask_sqlalchemy # Not needed?
+Flask-Restless
+alembic
+flask-compress

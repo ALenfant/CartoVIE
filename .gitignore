@@ -1,3 +1,14 @@
+# Project-specific
+settings.py
+cache/geocoding/
+
+# MacOS
+.DS_Store
+
+# My custom config
+venv/
+venvmac/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -58,3 +69,6 @@ target/
 
 # PyCharm
 .idea/
+
+# Config file
+config.ini
